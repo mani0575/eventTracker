@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9fa2a66c8343021075f4b3a6feaad3c4" label="TEST_GIT" max_length="40" name="x_288685_my_new_ap_st_test_git" type="collection">
+        <element label="INCIDENT" max_length="40" name="incident" type="string"/>
+    </element>
+</database>
