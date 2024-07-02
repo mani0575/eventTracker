@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SaveUser</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-02 09:28:30</sys_created_on>
+        <sys_id>b949b74b838b421075f4b3a6feaad300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SaveUser</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sp_widget_b949b74b838b421075f4b3a6feaad300</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-02 09:29:23</sys_updated_on>
+        <template><![CDATA[<div>
+<input type="button" id="Save">
+</div>]]></template>
+    </sp_widget>
+</record_update>
