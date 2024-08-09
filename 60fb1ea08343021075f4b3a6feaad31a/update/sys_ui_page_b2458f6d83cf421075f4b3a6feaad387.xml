@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
-        <category>general</category>
-        <client_script/>
+        <category>catalog</category>
+        <client_script><![CDATA[function createuserFROMUI() {
+    var fname = document.getElementById('fname').value;
+    var lname = document.getElementById('lname').value;
+    var email = document.getElementById('email').value;
+
+    if (fname === '' || lname === '' || email === '') {
+        alert('Please fill in all fields.');
+        return;
+    }
+    var ga = new GlideAjax('CreateUserAjax');
+    ga.addParam('sysparm_name', 'createUser');
+    ga.addParam('fname', fname);
+    ga.addParam('lname', lname);
+    ga.addParam('email', email);
+    ga.getXMLAnswer(function(response) {
+        document.getElementById('result').innerText = response;
+    });
+}
+]]></client_script>
         <description/>
-        <direct>true</direct>
+        <direct>false</direct>
         <endpoint>x_288685_my_new_ap_NewUserCreation.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
@@ -44,6 +62,7 @@ tr:hover {background-color: red;}
 }
 </style>
 
+<body>
 <h3 style ="color:green" title="Create User">Enter User Details</h3> 
 <hr/>
 <div>
@@ -59,6 +78,37 @@ tr:hover {background-color: red;}
 	<input class="input-box" type="text" name="mobile"/>
 </div>
 <hr/>
+
+<form name="UserDetails">
+ <fieldset>
+  <legend>User Details:</legend>
+        <label for="fname" class="input-label">First name:</label>
+        <input type="text" id="fname" name="fname" /><br/>
+        <label for="lname" class="input-label">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br/>
+        <label for="email" class="input-label">Enter Email:</label>
+        <input type="email" id="email" name="email" /><br/>
+        <button type="button" onclick="createuserFROMUI();">Save User</button>
+        <button type="reset" value="Reset">Reset</button>
+   </fieldset>
+</form>
+
+<div id="result"></div>
+<g2:evaluate>
+<!-- function onCreatedOnSelectChange() {
+	console.log(document.querySelector('#createdOn').value);
+} -->
+ var query = 'sys_created_onONLast 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()';
+var gru = new GlideRecord('sys_user');
+gru.addEncodedQuery(query)
+gru.query();
+</g2:evaluate>
+<label for="created">Created On</label>
+    <select id="createdOn" name="createdOn" onchange="onCreatedOnSelectChange()">
+        <option value="today">Today</option>
+        <option value="lastweek">Last Week</option>
+    </select>
+
 <table style="width:80%">
 <tr>
 <th>User ID</th>
@@ -74,41 +124,42 @@ tr:hover {background-color: red;}
 <td>mani@0575.com</td>
 <td>TODAY</td>
 </tr>
+<j2:while test="$[gru.next()]">
+<tr>
+<td>$[gru.user_name]</td>
+<td>$[gru.first_name]</td>
+<td>$[gru.last_name]</td>
+<td>$[gru.email]</td>
+<td>TODAY</td>
+</tr>
+</j2:while>
 
 </table>
 
-<label for="created">Created On</label>
+
+
+
+</body>
+<!-- <label for="created">Created On</label>
 <select id="created" name="created">
 <option value="today">Today</option>
-<option value="lastweek">Last Week</option>
-</select>
-
-<form name="userdetails">
-<label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"/><br/>
-    <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"/><br/>
-
-<label for="email">Enter Email:</label>
-<input type="email" id="email" name="email"/><br/>
-<input type="submit" value="Submit"/>
-   <input type="reset" value="Reset"/>
-</form>
-
-</j:jelly>]]></html>
+<option value="lastweek">Last Week</option> -->
+<!-- </select> -->
+</j:jelly>
+]]></html>
         <name>NewUserCreation</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-27 13:56:55</sys_created_on>
         <sys_id>b2458f6d83cf421075f4b3a6feaad387</sys_id>
-        <sys_mod_count>93</sys_mod_count>
+        <sys_mod_count>163</sys_mod_count>
         <sys_name>NewUserCreation</sys_name>
         <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
         <sys_policy/>
         <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
         <sys_update_name>sys_ui_page_b2458f6d83cf421075f4b3a6feaad387</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-01 13:35:47</sys_updated_on>
+        <sys_updated_on>2024-07-09 09:36:41</sys_updated_on>
     </sys_ui_page>
 </record_update>

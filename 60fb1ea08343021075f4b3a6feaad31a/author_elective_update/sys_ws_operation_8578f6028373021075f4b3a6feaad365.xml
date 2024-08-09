@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="DELETE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>GetIncident</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var pageId = request.pathParams.incidentnumber;
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_288685_my_new_ap/createincident/fetch</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/fetch</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 09:00:55</sys_created_on>
+        <sys_id>8578f6028373021075f4b3a6feaad365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetIncident</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_ws_operation_8578f6028373021075f4b3a6feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 09:01:39</sys_updated_on>
+        <web_service_definition display_value="CreateIncident">4f423a0a8333021075f4b3a6feaad331</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</application>
+        <file_path/>
+        <instance_id>456dd6401b45825c39a54089bd4bcb90</instance_id>
+        <instance_name>dev243450</instance_name>
+        <name>sys_ws_operation_8578f6028373021075f4b3a6feaad365</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;GetIncident&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var pageId = request.pathParams.incidentnumber;
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_288685_my_new_ap/createincident/fetch&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/fetch&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-05 09:00:55&lt;/sys_created_on&gt;&lt;sys_id&gt;8578f6028373021075f4b3a6feaad365&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetIncident&lt;/sys_name&gt;&lt;sys_package display_value="MY NEW Application" source="x_288685_my_new_ap"&gt;60fb1ea08343021075f4b3a6feaad31a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MY NEW Application"&gt;60fb1ea08343021075f4b3a6feaad31a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_8578f6028373021075f4b3a6feaad365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-05 09:01:39&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="CreateIncident"&gt;4f423a0a8333021075f4b3a6feaad331&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>491282063</payload_hash>
+        <record_name>GetIncident</record_name>
+        <reverted_from/>
+        <source>4892ea2c8343021075f4b3a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 09:01:39</sys_created_on>
+        <sys_id>7a89f2828373021075f4b3a6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19121c5d5e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 09:01:39</sys_updated_on>
+        <type>Scripted REST Resource</type>
+        <update_guid>ba89728e803302107de8b0fdcabe6c48</update_guid>
+        <update_guid_history>ba89728e803302107de8b0fdcabe6c48:491282063,1179fe4238730210d3b696d4893a8bb0:1245958784,5c69fe4254730210cce4133c20c00dc4:-1772498085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 09:05:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_operation">sys_ws_operation</sys_db_object>
+        <sys_id>3165128b0c3144788afbe7dc88804040</sys_id>
+        <sys_metadata>8578f6028373021075f4b3a6feaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetIncident</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_scope_delete display_value="">53a1c91732eb4577a8361c600e5455f1</sys_scope_delete>
+        <sys_update_name>sys_ws_operation_8578f6028373021075f4b3a6feaad365</sys_update_name>
+        <sys_update_version display_value="sys_ws_operation_8578f6028373021075f4b3a6feaad365">7a89f2828373021075f4b3a6feaad381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 09:05:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

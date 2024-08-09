@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_header">
+    <sys_ws_header action="DELETE">
+        <example_value/>
+        <name>callerID</name>
+        <required>false</required>
+        <short_description/>
+        <sys_class_name>sys_ws_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 09:28:29</sys_created_on>
+        <sys_id>381f364a8373021075f4b3a6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>callerID</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_ws_header_381f364a8373021075f4b3a6feaad3f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 09:28:29</sys_updated_on>
+        <web_service_definition display_value="CreateIncident">4f423a0a8333021075f4b3a6feaad331</web_service_definition>
+    </sys_ws_header>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</application>
+        <file_path/>
+        <instance_id>456dd6401b45825c39a54089bd4bcb90</instance_id>
+        <instance_name>dev243450</instance_name>
+        <name>sys_ws_header_381f364a8373021075f4b3a6feaad3f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_header"><sys_ws_header action="INSERT_OR_UPDATE"><example_value/><name>callerID</name><required>false</required><short_description/><sys_class_name>sys_ws_header</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-05 09:28:29</sys_created_on><sys_id>381f364a8373021075f4b3a6feaad3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>callerID</sys_name><sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package><sys_policy/><sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope><sys_update_name>sys_ws_header_381f364a8373021075f4b3a6feaad3f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-05 09:28:29</sys_updated_on><web_service_definition display_value="CreateIncident">4f423a0a8333021075f4b3a6feaad331</web_service_definition></sys_ws_header></record_update>]]></payload>
+        <payload_hash>1390351290</payload_hash>
+        <record_name>callerID</record_name>
+        <reverted_from/>
+        <source>4892ea2c8343021075f4b3a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 09:28:29</sys_created_on>
+        <sys_id>bbaff28a8373021075f4b3a6feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19121de67930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 09:28:29</sys_updated_on>
+        <type>Scripted REST Header</type>
+        <update_guid>bfaff28a76730210f54bbc13d7e460a1</update_guid>
+        <update_guid_history>bfaff28a76730210f54bbc13d7e460a1:1390351290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 10:42:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_header">sys_ws_header</sys_db_object>
+        <sys_id>6c47ef57151a4035a72fa14aaafcfef9</sys_id>
+        <sys_metadata>381f364a8373021075f4b3a6feaad3f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>callerID</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_scope_delete display_value="">53a1c91732eb4577a8361c600e5455f1</sys_scope_delete>
+        <sys_update_name>sys_ws_header_381f364a8373021075f4b3a6feaad3f4</sys_update_name>
+        <sys_update_version display_value="sys_ws_header_381f364a8373021075f4b3a6feaad3f4">bbaff28a8373021075f4b3a6feaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 10:42:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

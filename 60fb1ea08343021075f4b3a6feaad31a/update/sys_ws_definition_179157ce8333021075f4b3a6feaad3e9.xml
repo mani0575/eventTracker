@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_288685_my_new_ap/createincident</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>createIncident</name>
+        <namespace>x_288685_my_new_ap</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>createincident</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 10:47:06</sys_created_on>
+        <sys_id>179157ce8333021075f4b3a6feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>createIncident</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_ws_definition_179157ce8333021075f4b3a6feaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 10:47:06</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

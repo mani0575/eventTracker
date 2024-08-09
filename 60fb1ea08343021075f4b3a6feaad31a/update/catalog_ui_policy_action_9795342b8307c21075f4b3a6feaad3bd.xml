@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Create Incident RC">88759ea583cb421075f4b3a6feaad36c</catalog_item>
-        <catalog_variable>IO:64613775830bc21075f4b3a6feaad32b</catalog_variable>
+        <catalog_variable>IO:56d81eed83cb421075f4b3a6feaad336</catalog_variable>
         <cleared>false</cleared>
-        <disabled>ignore</disabled>
+        <disabled>false</disabled>
         <field/>
         <field_message/>
         <field_message_type>none</field_message_type>
-        <mandatory>false</mandatory>
+        <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-28 11:59:50</sys_created_on>
-        <sys_id>c5c53bf9830bc21075f4b3a6feaad380</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>first_name</sys_name>
+        <sys_created_on>2024-07-03 08:29:31</sys_created_on>
+        <sys_id>9795342b8307c21075f4b3a6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
         <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
         <sys_policy/>
         <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_c5c53bf9830bc21075f4b3a6feaad380</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_9795342b8307c21075f4b3a6feaad3bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-03 07:33:51</sys_updated_on>
+        <sys_updated_on>2024-07-03 08:29:31</sys_updated_on>
         <table/>
-        <ui_policy display_value="ExistinUserHide">98b23bf5830bc21075f4b3a6feaad358</ui_policy>
+        <ui_policy display_value="redreadonly">0c653ce78307c21075f4b3a6feaad3dc</ui_policy>
         <value/>
-        <value_action>clear_value</value_action>
-        <variable>first_name</variable>
+        <value_action>ignore</value_action>
+        <variable>short_description</variable>
         <variable_set/>
-        <visible>false</visible>
+        <visible>ignore</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=c5c53bf9830bc21075f4b3a6feaad380"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9795342b8307c21075f4b3a6feaad3bd"/>
 </record_update>

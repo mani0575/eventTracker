@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Create Incident RC">88759ea583cb421075f4b3a6feaad36c</catalog_item>
+        <catalog_variable>IO:66c75eed83cb421075f4b3a6feaad3fb</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>500</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 08:01:19</sys_created_on>
+        <sys_id>721f20ef83c3c21075f4b3a6feaad3e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>caller_id</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_721f20ef83c3c21075f4b3a6feaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 08:02:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="ExistinUserHide">98b23bf5830bc21075f4b3a6feaad358</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>caller_id</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=721f20ef83c3c21075f4b3a6feaad3e0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</application>
+        <file_path/>
+        <instance_id>456dd6401b45825c39a54089bd4bcb90</instance_id>
+        <instance_name>dev243450</instance_name>
+        <name>catalog_ui_policy_action_721f20ef83c3c21075f4b3a6feaad3e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Create Incident RC">88759ea583cb421075f4b3a6feaad36c</catalog_item><catalog_variable>IO:66c75eed83cb421075f4b3a6feaad3fb</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>500</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-03 08:01:19</sys_created_on><sys_id>721f20ef83c3c21075f4b3a6feaad3e0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>caller_id</sys_name><sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package><sys_policy/><sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope><sys_update_name>catalog_ui_policy_action_721f20ef83c3c21075f4b3a6feaad3e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-03 08:02:14</sys_updated_on><table/><ui_policy display_value="ExistinUserHide">98b23bf5830bc21075f4b3a6feaad358</ui_policy><value/><value_action>ignore</value_action><variable>caller_id</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=721f20ef83c3c21075f4b3a6feaad3e0"/></record_update>]]></payload>
+        <payload_hash>-1125660342</payload_hash>
+        <record_name>caller_id</record_name>
+        <reverted_from/>
+        <source>4892ea2c8343021075f4b3a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 08:02:15</sys_created_on>
+        <sys_id>c77f6cef83c3c21075f4b3a6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190779d978f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 08:02:15</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4f7f6cefcec3c210d73957d0700bfc79</update_guid>
+        <update_guid_history>4f7f6cefcec3c210d73957d0700bfc79:-1125660342,ec7f2cef39c3c210fb1f8752872d18b0:1978341326,214f28ef6dc3c21022ce128344503272:-1925032423</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="caller_id">720038238307c21075f4b3a6feaad3e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 08:04:42</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>017eca2ff416462a87b678d0e2302291</sys_id>
+        <sys_metadata>721f20ef83c3c21075f4b3a6feaad3e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>caller_id</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_scope_delete display_value="">53a1c91732eb4577a8361c600e5455f1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_721f20ef83c3c21075f4b3a6feaad3e0</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_721f20ef83c3c21075f4b3a6feaad3e0">c77f6cef83c3c21075f4b3a6feaad37a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 08:04:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
