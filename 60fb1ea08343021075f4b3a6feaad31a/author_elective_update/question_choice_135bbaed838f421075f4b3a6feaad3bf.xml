@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>50</order>
+        <published_ref/>
+        <question display_value="State">1f69ba2d838f421075f4b3a6feaad382</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 13:06:00</sys_created_on>
+        <sys_id>135bbaed838f421075f4b3a6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>In Progress</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>question_choice_135bbaed838f421075f4b3a6feaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 13:06:00</sys_updated_on>
+        <text>In Progress</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=135bbaed838f421075f4b3a6feaad3bf"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>135bbaed838f421075f4b3a6feaad3bf</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 13:06:00</sys_created_on>
+        <sys_id>867b72ed838f421075f4b3a6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 13:06:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>135bbaed838f421075f4b3a6feaad3bf</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 13:06:00</sys_created_on>
+        <sys_id>867b72ed838f421075f4b3a6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 13:06:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</application>
+        <file_path/>
+        <instance_id>456dd6401b45825c39a54089bd4bcb90</instance_id>
+        <instance_name>dev243450</instance_name>
+        <name>question_choice_135bbaed838f421075f4b3a6feaad3bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>50</order><published_ref/><question display_value="State">1f69ba2d838f421075f4b3a6feaad382</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-27 13:06:00</sys_created_on><sys_id>135bbaed838f421075f4b3a6feaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>In Progress</sys_name><sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package><sys_policy/><sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope><sys_update_name>question_choice_135bbaed838f421075f4b3a6feaad3bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-27 13:06:00</sys_updated_on><text>In Progress</text><value>2</value></question_choice><fx_price action="delete_multiple" query="id=135bbaed838f421075f4b3a6feaad3bf"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>135bbaed838f421075f4b3a6feaad3bf</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-27 13:06:00</sys_created_on><sys_id>867b72ed838f421075f4b3a6feaad383</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-27 13:06:00</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>135bbaed838f421075f4b3a6feaad3bf</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-27 13:06:00</sys_created_on><sys_id>867b72ed838f421075f4b3a6feaad382</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-27 13:06:00</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>477243925</payload_hash>
+        <record_name>In Progress</record_name>
+        <reverted_from/>
+        <source>4892ea2c8343021075f4b3a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 13:06:00</sys_created_on>
+        <sys_id>427b7eed838f421075f4b3a6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19059cd881f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 13:06:00</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8e7b72edcb8f42104e90fc815a382884</update_guid>
+        <update_guid_history>8e7b72edcb8f42104e90fc815a382884:477243925</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="In Progress">412cba2183cf421075f4b3a6feaad32b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 13:08:56</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2d375946dcbc4bc28feb6df1d9a11e84</sys_id>
+        <sys_metadata>135bbaed838f421075f4b3a6feaad3bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>In Progress</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_parent display_value="">1f69ba2d838f421075f4b3a6feaad382</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_scope_delete display_value="">53a1c91732eb4577a8361c600e5455f1</sys_scope_delete>
+        <sys_update_name>question_choice_135bbaed838f421075f4b3a6feaad3bf</sys_update_name>
+        <sys_update_version display_value="question_choice_135bbaed838f421075f4b3a6feaad3bf">427b7eed838f421075f4b3a6feaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 13:08:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

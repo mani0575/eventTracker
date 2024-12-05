@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_288685_my_new_ap.CreateUserAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CreateUserAjax</name>
+        <script><![CDATA[var CreateUserAjax = Class.create();
+CreateUserAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    createUser: function() {
+        var fname = this.getParameter('fname');
+        var lname = this.getParameter('lname');
+        var email = this.getParameter('email');
+
+        var userGR = new GlideRecord('sys_user');
+        userGR.initialize();
+        userGR.first_name = fname;
+        userGR.last_name = lname;
+        userGR.email = email;
+        userGR.user_name = fname + "." + lname;
+
+            var userID = userGR.insert();
+            if (userID) {
+                return 'User created successfully with ID: ' + userID;
+            } else {
+               
+                return 'User creation failed.';
+            }
+    },
+    type: 'CreateUserAjax'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-03 13:21:03</sys_created_on>
+        <sys_id>6858bdaf834bc21075f4b3a6feaad354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CreateUserAjax</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_script_include_6858bdaf834bc21075f4b3a6feaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-03 13:26:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_288685_my_new_ap_NewUserCreation.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<head>
+  <title>User Creation</title>
+</head>
+
+<style>
+.input-label {
+	color: red;
+	font-family: verdana;
+	
+}
+.input-box {
+	background-color: powderblue;
+	border:2px solid DodgerBlue;
+	margin: 10px;
+}
+</style>
+
+<style>
+table,th,td{
+	  border:1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+</style>
+
+<h3 style ="color:green" title="Create User">Enter User Details</h3> 
+<hr/>
+<div>
+	<span class="input-label">First Name</span>
+	<input class="input-box" type="text" name="firstname"/>
+</div>
+<div>
+	<span class="input-label">Last Name</span>
+	<input class="input-box" type="text" name=";lastname"/>
+</div>
+<div>
+	<span class="input-label">Mobile</span>
+	<input class="input-box" type="text" name="mobile"/>
+</div>
+<hr/>
+<table style="width:60%">
+<tr>
+<th>User ID</th>
+<th>Email</th>
+<th>Created</th>
+</tr>
+
+<tr>
+<td>MANI</td>
+<td>mani@0575.com</td>
+<td>TODAY</td>
+</tr>
+
+
+<style>
+.secondTab table,.secondTab th,.secondTab td{
+	  border:1px solid red;
+	//border-collapse: collapse;
+}
+.secTHTD th,.secTHTD td{
+  background-color:powderblue ;
+}
+</style>
+
+
+</table>
+<table class="secondTab" style="width:60%;margin-top:30px">
+<tr>
+<th class = "secTHTD">User ID</th>
+<th>Email</th>
+<th>Created</th>
+</tr>
+
+<tr>
+<td>MANI</td>
+<td>mani@0575.com</td>
+<td>TODAY</td>
+</tr>
+
+</table>
+
+</j:jelly>]]></html>
+        <name>NewUserCreation</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 11:39:37</sys_created_on>
+        <sys_id>ff0e4f7a8383021075f4b3a6feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewUserCreation</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_ui_page_ff0e4f7a8383021075f4b3a6feaad317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 11:39:37</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</application>
+        <file_path/>
+        <instance_id>456dd6401b45825c39a54089bd4bcb90</instance_id>
+        <instance_name>dev243450</instance_name>
+        <name>sys_ui_page_ff0e4f7a8383021075f4b3a6feaad317</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;true&lt;/direct&gt;&lt;endpoint&gt;x_288685_my_new_ap_NewUserCreation.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;head&gt;
+  &lt;title&gt;User Creation&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;style&gt;
+.input-label {
+	color: red;
+	font-family: verdana;
+	
+}
+.input-box {
+	background-color: powderblue;
+	border:2px solid DodgerBlue;
+	margin: 10px;
+}
+&lt;/style&gt;
+
+&lt;style&gt;
+table,th,td{
+	  border:1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+&lt;/style&gt;
+
+&lt;h3 style ="color:green" title="Create User"&gt;Enter User Details&lt;/h3&gt; 
+&lt;hr/&gt;
+&lt;div&gt;
+	&lt;span class="input-label"&gt;First Name&lt;/span&gt;
+	&lt;input class="input-box" type="text" name="firstname"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;span class="input-label"&gt;Last Name&lt;/span&gt;
+	&lt;input class="input-box" type="text" name=";lastname"/&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;span class="input-label"&gt;Mobile&lt;/span&gt;
+	&lt;input class="input-box" type="text" name="mobile"/&gt;
+&lt;/div&gt;
+&lt;hr/&gt;
+&lt;table style="width:60%"&gt;
+&lt;tr&gt;
+&lt;th&gt;User ID&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Created&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MANI&lt;/td&gt;
+&lt;td&gt;mani@0575.com&lt;/td&gt;
+&lt;td&gt;TODAY&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;style&gt;
+.secondTab table,.secondTab th,.secondTab td{
+	  border:1px solid red;
+	//border-collapse: collapse;
+}
+.secTHTD th,.secTHTD td{
+  background-color:powderblue ;
+}
+&lt;/style&gt;
+
+
+&lt;/table&gt;
+&lt;table class="secondTab" style="width:60%;margin-top:30px"&gt;
+&lt;tr&gt;
+&lt;th class = "secTHTD"&gt;User ID&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Created&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MANI&lt;/td&gt;
+&lt;td&gt;mani@0575.com&lt;/td&gt;
+&lt;td&gt;TODAY&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;NewUserCreation&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-01 11:39:37&lt;/sys_created_on&gt;&lt;sys_id&gt;ff0e4f7a8383021075f4b3a6feaad317&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NewUserCreation&lt;/sys_name&gt;&lt;sys_package display_value="MY NEW Application" source="x_288685_my_new_ap"&gt;60fb1ea08343021075f4b3a6feaad31a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MY NEW Application"&gt;60fb1ea08343021075f4b3a6feaad31a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_ff0e4f7a8383021075f4b3a6feaad317&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-01 11:39:37&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>719232532</payload_hash>
+        <record_name>NewUserCreation</record_name>
+        <reverted_from/>
+        <source>4892ea2c8343021075f4b3a6feaad36f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 11:39:37</sys_created_on>
+        <sys_id>770e4ffe8383021075f4b3a6feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1906e17e3290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 11:39:37</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>7b0e4ffe548302107022db61b556beed</update_guid>
+        <update_guid_history>7b0e4ffe548302107022db61b556beed:719232532</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-01 11:39:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>383da8cf6965491e8cc23a5406641829</sys_id>
+        <sys_metadata>ff0e4f7a8383021075f4b3a6feaad317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NewUserCreation</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_scope_delete display_value="">53a1c91732eb4577a8361c600e5455f1</sys_scope_delete>
+        <sys_update_name>sys_ui_page_ff0e4f7a8383021075f4b3a6feaad317</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_ff0e4f7a8383021075f4b3a6feaad317">770e4ffe8383021075f4b3a6feaad3ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-01 11:39:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

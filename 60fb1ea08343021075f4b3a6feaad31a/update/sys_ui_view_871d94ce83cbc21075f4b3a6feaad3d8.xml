@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-28 14:51:04</sys_created_on>
+        <sys_id>871d94ce83cbc21075f4b3a6feaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CUSTOM</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_ui_view_871d94ce83cbc21075f4b3a6feaad3d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-28 14:51:04</sys_updated_on>
+        <title>CUSTOM</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

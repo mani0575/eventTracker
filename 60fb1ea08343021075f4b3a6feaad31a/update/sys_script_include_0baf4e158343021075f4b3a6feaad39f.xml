@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_288685_my_new_ap.GetCallerEmailID</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetCallerEmailID</name>
+        <script><![CDATA[var GetCallerEmailID = Class.create();
+GetCallerEmailID.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getEmail: function() {
+        var callId = this.getParameter('caller_sys_id');
+        var userGR = new GlideRecord('sys_user');
+        
+        if (userGR.get(callId)) {
+            return userGR.email.toString();
+        }
+        
+        return "";
+    },
+    
+    type: 'GetCallerEmailID'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-26 15:32:17</sys_created_on>
+        <sys_id>0baf4e158343021075f4b3a6feaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetCallerEmailID</sys_name>
+        <sys_package display_value="MY NEW Application" source="x_288685_my_new_ap">60fb1ea08343021075f4b3a6feaad31a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MY NEW Application">60fb1ea08343021075f4b3a6feaad31a</sys_scope>
+        <sys_update_name>sys_script_include_0baf4e158343021075f4b3a6feaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-26 15:32:17</sys_updated_on>
+    </sys_script_include>
+</record_update>
